@@ -29,9 +29,7 @@ const Home: NextPage = () => {
         <p>If you still need help finding it, we googled it for you</p>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.072264462709!2d-74.00747018459428!3d40.73843537932902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259955f9db39b%3A0x809cbac85f9cb27b!2s632%20On%20Hudson!5e0!3m2!1sen!2sus!4v1641747911059!5m2!1sen!2sus"
-          width="600"
-          height="450"
-          style={{ border: "0px" }}
+          className={styles.map}
           //@ts-ignore
           allowfullscreen={false}
           loading="lazy"
