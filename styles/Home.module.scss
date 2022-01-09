@@ -2,6 +2,59 @@
   padding: 0 2rem;
 }
 
+.hero{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  text-align:center;
+  background-color:black;
+  h3{
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count:1;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+  }
+}
+
+.section{
+  width:100vw;
+  padding: 10rem;
+  text-align:center;
+  color:white;
+}
+.atire{
+  background-color: #FEC8D8;
+}
+
+.rsvp{
+ background-color: #D291BC;
+}
+
+.emph{
+  font-weight:bold;
+}
+.location{
+ background-color: #957DAD;
+ iframe{
+    box-sizing:border-box;
+    padding:20px;
+ }
+}
+
+@keyframes fadeInOpacity{
+   0%{
+      opacity:0;
+   }
+   100%{
+      opacity:1;
+   }
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
