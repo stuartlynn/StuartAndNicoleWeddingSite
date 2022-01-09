@@ -7,8 +7,15 @@ const Home: NextPage = () => {
   return (
     <div>
       <div className={styles.hero}>
-        <h1>Nicole and Stuart do the thing</h1>
-        <h3>... and by thing we mean getting married</h3>
+        <div className={styles.videocontainer}>
+          <video autoPlay muted className={styles.video}>
+              <source src="/hyperspace.mp4" type="video/mp4"></source>
+          </video>
+        </div>
+        <div className={styles.heroText}>
+          <h1>Nicole and Stuart do the thing</h1>
+          <h3>... and by thing we mean getting married</h3>
+        </div>
       </div>
       <section className={`${styles.rsvp} ${styles.section}`} >
         <h2>RSVP here</h2>
