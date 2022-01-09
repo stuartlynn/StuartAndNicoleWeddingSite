@@ -9,7 +9,7 @@ const Home: NextPage = () => {
       <div className={styles.hero}>
         <div className={styles.videocontainer}>
           <video autoPlay muted className={styles.video}>
-            <source src="/background_video.webp" type="video/webp"></source>
+            <source src="/background_video.webm" type="video/webm"></source>
           </video>
         </div>
         <div className={styles.heroText}>
