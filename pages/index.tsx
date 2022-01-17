@@ -18,7 +18,9 @@ const Home: NextPage = () => {
         </div>
       </div>
       <section className={`${styles.rsvp} ${styles.section}`}>
-        <h2>RSVP here</h2>
+        <h2 className={styles.rsvpLink}>
+          <a target="_blank" href="https://forms.gle/685ckkc7eL4o56LD8">RSVP Here</a>
+        </h2>
         <p>
           We would love to know if your coming to the wedding so we can plan on
           how many snakes... I mean drinks and food and stuff to order. This is

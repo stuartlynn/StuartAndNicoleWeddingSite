@@ -55,6 +55,14 @@
 
 .rsvp{
  background-color: #D291BC;
+ .rsvpLink {
+   text-decoration: underline;
+   color: #fdccc6;
+
+   &:hover {
+    color: #b3efd1;
+   }
+ }
 }
 
 .emph{
