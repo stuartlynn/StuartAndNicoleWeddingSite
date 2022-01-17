@@ -50,7 +50,23 @@
   color:white;
 }
 .atire{
-  background-color: #fdbed0;
+  // background-color: #fdbed0;
+  background-color: #ffb6c1;
+}
+
+.accomodation {
+ background-color: #D291BC;
+}
+
+.thingsToDo {
+ background-color: #957DAD;
+  ul {
+    display: table;
+    margin: auto;
+  }
+  a {
+    text-decoration: underline;
+  }
 }
 
 .rsvp{

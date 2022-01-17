@@ -17,6 +17,7 @@ const Home: NextPage = () => {
           <h3>... and by thing we mean getting married</h3>
         </div>
       </div>
+
       <section className={`${styles.rsvp} ${styles.section}`}>
         <h2 className={styles.rsvpLink}>
           <a target="_blank" href="https://forms.gle/685ckkc7eL4o56LD8">RSVP Here</a>
@@ -27,6 +28,7 @@ const Home: NextPage = () => {
           a webform to do just that. We trust you know how to use it.
         </p>
       </section>
+
       <section className={`${styles.section} ${styles.location}`}>
         <h2>Time and Location</h2>
         <p>
@@ -43,6 +45,7 @@ const Home: NextPage = () => {
           loading="lazy"
         ></iframe>
       </section>
+
       <section className={`${styles.section} ${styles.atire}`}>
         <h2>Attire</h2>
         <p>
@@ -61,6 +64,63 @@ const Home: NextPage = () => {
           hearts will be asked to go home and think about the choices they have
           made in life
         </p>
+      </section>
+
+      <section className={`${styles.section} ${styles.accomodation}`}>
+        <h2>Where to stay</h2>
+        <p>
+          Anywhere in Manhatten or western Brooklyn will put you within a reasonable subway journey of the venue.
+        </p>
+        <p>
+          The following subway lines have stations within a few blocks of the venue: A, C, E, L, 1, 2, 3, F, M. Google Maps is a good way to check subway commute times between the venue and your hotel.
+        </p>
+        <p>
+          Airbnbs are another good option and there are a ton of them in every neighborhood. 
+        </p>
+      </section>
+
+      <section className={`${styles.section} ${styles.thingsToDo}`}>
+        <h2>Things to do</h2>
+        <p>
+        If you've got some time to kill, here are some of our favorites. 
+        </p>
+        <ul>
+          <li>
+            <p>
+              <a target="_blank" href="https://goo.gl/maps/HSwcXuGSU1Haz2wY6">John's Of Bleecker Street</a> (pizza)
+            </p>
+          </li>
+          <li>
+            <p>
+              <a target="_blank" href="https://goo.gl/maps/dHmLtKXqA8Angadz9">McSorley's Ale Huse</a> (oldest bar in nyc)
+            </p>
+          </li>
+          <li>
+            <p>
+              <a target="_blank" href="https://goo.gl/maps/3a9uiEgJ5rR7FL6y8">Ivan Ramen</a> (get the Triple Pork Triple Garlic)
+            </p>
+          </li>
+          <li>
+            <p>
+              <a target="_blank" href="https://amplehills.com/">Ample Hills Creamery</a> (ice cream)
+            </p>
+          </li>
+          <li>
+            <p>
+              <a target="_blank" href="https://littlefieldnyc.com/">Littlefield</a> (comedy)
+            </p>
+          </li>
+          <li>
+            <p>
+              <a target="_blank" href="https://goo.gl/maps/LYyKpUHKXKo9whEZ9">Thai Diner</a> (Thai comfort food)
+            </p>
+          </li>
+          <li>
+            <p>
+              <a target="_blank" href="https://www.bunkernyc.com/">Bunker</a> (Vietnamese street food)
+            </p>
+          </li>
+        </ul>
       </section>
     </div>
   );
