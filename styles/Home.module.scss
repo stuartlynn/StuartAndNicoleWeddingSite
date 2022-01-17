@@ -64,6 +64,9 @@
     display: table;
     margin: auto;
   }
+  li {
+    list-style: none;
+  }
   a {
     text-decoration: underline;
   }
