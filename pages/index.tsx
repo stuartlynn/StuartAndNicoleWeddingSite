@@ -19,6 +19,8 @@ const Home: NextPage = () => {
       </div>
 
       <section className={`${styles.rsvp} ${styles.section}`}>
+        <h1> September 17, 2022 </h1>
+        <h1> 3pm </h1>
         <h2 className={styles.rsvpLink}>
           ✨<a target="_blank" href="https://forms.gle/685ckkc7eL4o56LD8">RSVP Here</a>✨
         </h2>
