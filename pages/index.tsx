@@ -44,26 +44,23 @@ const Home: NextPage = () => {
         ></iframe>
       </section>
       <section className={`${styles.section} ${styles.atire}`}>
-        <h2>Attire: or what to wear</h2>
+        <h2>Attire</h2>
         <p>
           We have a very strict dress code for the wedding. After reading many
           many books on wedding etiquette, do's and dont's, faux pas and trends,
           we have decided to adopt the{" "}
-          <span className={styles.emph}>WWETFMYH</span> dress code for the
-          wedding.{" "}
+          <span className={styles.emph}>WWETFMYH</span> dress code.{" "}
         </p>
         <p>
-          For those of you now in the know, or who have not done as extensive
-          research as we have that means
+          For those of you who have not done as extensive
+          research as we have,  that means
         </p>
         <h2>Wear What Ever The Fuck Makes You Happy</h2>
         <p>
-          Seriously, people arriving in clothes that do not spark joy in their
+          People arriving in clothes that do not spark joy in their
           hearts will be asked to go home and think about the choices they have
           made in life
         </p>
-
-        <p>Here are some pictures for inspiration</p>
       </section>
     </div>
   );
