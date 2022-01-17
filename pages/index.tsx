@@ -20,7 +20,7 @@ const Home: NextPage = () => {
 
       <section className={`${styles.rsvp} ${styles.section}`}>
         <h2 className={styles.rsvpLink}>
-          <a target="_blank" href="https://forms.gle/685ckkc7eL4o56LD8">RSVP Here</a>
+          ✨<a target="_blank" href="https://forms.gle/685ckkc7eL4o56LD8">RSVP Here</a>✨
         </h2>
         <p>
           We would love to know if your coming to the wedding so we can plan on

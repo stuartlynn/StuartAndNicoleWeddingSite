@@ -50,7 +50,6 @@
   color:white;
 }
 .atire{
-  // background-color: #fdbed0;
   background-color: #ffb6c1;
 }
 
@@ -75,11 +74,9 @@
 .rsvp{
  background-color: #D291BC;
  .rsvpLink {
-   text-decoration: underline;
-   color: #fdccc6;
-
+   color: #b3efd1;
    &:hover {
-    color: #b3efd1;
+     text-decoration: underline;
    }
  }
 }
