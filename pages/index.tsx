@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         <h1> September 17, 2022 </h1>
         <h1> 3pm </h1>
         <h2 className={styles.rsvpLink}>
-          ✨<a target="_blank" href="https://forms.gle/685ckkc7eL4o56LD8">RSVP Here</a>✨
+          ✨<a target="_blank" rel='noreferrer' href="https://forms.gle/685ckkc7eL4o56LD8">RSVP Here</a>✨
         </h2>
         <p>
           We would love to know if your coming to the wedding so we can plan on
@@ -36,7 +36,7 @@ const Home: NextPage = () => {
         <p>
           We are going to be getting married in NYC, our home of almost 7 years
           now. Come join us at the beautiful{" "}
-          <a href="https://www.632onhudson.com/">632 on Hudson</a> which is also
+          <a target="_blank" rel='noreferrer' href="https://www.632onhudson.com/">632 on Hudson</a> which is also
           conveniently it's address.
         </p>
         <p>If you still need help finding it, we googled it for you</p>
@@ -89,37 +89,37 @@ const Home: NextPage = () => {
         <ul>
           <li>
             <p>
-              <a target="_blank" href="https://goo.gl/maps/HSwcXuGSU1Haz2wY6">John's Of Bleecker Street</a> (pizza)
+              <a target="_blank" rel="noreferrer" href="https://goo.gl/maps/HSwcXuGSU1Haz2wY6">John's Of Bleecker Street</a> (pizza)
             </p>
           </li>
           <li>
             <p>
-              <a target="_blank" href="https://goo.gl/maps/dHmLtKXqA8Angadz9">McSorley's Ale Huse</a> (oldest bar in nyc)
+              <a target="_blank" rel="noreferrer" href="https://goo.gl/maps/dHmLtKXqA8Angadz9">McSorley's Ale Huse</a> (oldest bar in nyc)
             </p>
           </li>
           <li>
             <p>
-              <a target="_blank" href="https://goo.gl/maps/3a9uiEgJ5rR7FL6y8">Ivan Ramen</a> (get the Triple Pork Triple Garlic)
+              <a target="_blank" rel="noreferrer" href="https://goo.gl/maps/3a9uiEgJ5rR7FL6y8">Ivan Ramen</a> (get the Triple Pork Triple Garlic)
             </p>
           </li>
           <li>
             <p>
-              <a target="_blank" href="https://amplehills.com/">Ample Hills Creamery</a> (ice cream)
+              <a target="_blank" rel="noreferrer" href="https://amplehills.com/">Ample Hills Creamery</a> (ice cream)
             </p>
           </li>
           <li>
             <p>
-              <a target="_blank" href="https://littlefieldnyc.com/">Littlefield</a> (comedy)
+              <a target="_blank" rel="noreferrer" href="https://littlefieldnyc.com/">Littlefield</a> (comedy)
             </p>
           </li>
           <li>
             <p>
-              <a target="_blank" href="https://goo.gl/maps/LYyKpUHKXKo9whEZ9">Thai Diner</a> (Thai comfort food)
+              <a target="_blank" rel="noreferrer" href="https://goo.gl/maps/LYyKpUHKXKo9whEZ9">Thai Diner</a> (Thai comfort food)
             </p>
           </li>
           <li>
             <p>
-              <a target="_blank" href="https://www.bunkernyc.com/">Bunker</a> (Vietnamese street food)
+              <a target="_blank" rel="noreferrer" href="https://www.bunkernyc.com/">Bunker</a> (Vietnamese street food)
             </p>
           </li>
         </ul>
