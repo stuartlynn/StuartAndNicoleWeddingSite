@@ -8,7 +8,7 @@ const Home: NextPage = () => {
     <div>
       <div className={styles.hero}>
         <div className={styles.videocontainer}>
-          <video autoPlay muted className={styles.video}>
+          <video autoPlay muted loop className={styles.video}>
             <source src="/background_video.webm" type="video/webm"></source>
           </video>
         </div>
