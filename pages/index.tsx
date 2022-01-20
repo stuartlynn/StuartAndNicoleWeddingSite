@@ -124,6 +124,13 @@ const Home: NextPage = () => {
           </li>
         </ul>
       </section>
+
+      <section className={`${styles.section} ${styles.gifts}`}>
+        <h2>Gifts</h2>
+        <p>
+          We're extremely old and therefore already in possesion of plates/towels/etc. If you feel especially compelled to spend money to mark this occasion, here is a great organization that helps food-insucure New Yorkers: <a target="_blank" href="https://www.foodbanknyc.org/">foodbanknyc.org</a>
+        </p>
+      </section>
     </div>
   );
 };
